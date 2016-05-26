@@ -9,5 +9,7 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+
+        //加上对方空间的说服力的是你吃肯德基里是否还是女叫对方先查查你下课
     }
 }
