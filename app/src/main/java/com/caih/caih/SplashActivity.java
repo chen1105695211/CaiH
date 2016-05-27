@@ -12,5 +12,7 @@ public class SplashActivity extends AutoLayoutActivity {
         setContentView(R.layout.activity_splash);
 
 
+
+
     }
 }
