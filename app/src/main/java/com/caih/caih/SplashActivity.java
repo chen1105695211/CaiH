@@ -1,14 +1,16 @@
 package com.caih.caih;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class SplashActivity extends AppCompatActivity {
+import com.zhy.autolayout.AutoLayoutActivity;
+
+public class SplashActivity extends AutoLayoutActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+
 
     }
 }
