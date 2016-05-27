@@ -9,9 +9,33 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.caih.caih.SplashActivity">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"></ImageView>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
-
+        android:text="财华国际"
+        android:textSize="100px"
+        android:layout_marginLeft="135px"
+        android:layout_marginTop="50px"
+        android:textStyle="bold"
+        android:textColor="#0d74af"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="专注于ACCA网络教育"
+        android:textSize="50px"
+        android:layout_marginLeft="105px"
+        android:layout_marginTop="180px"
+        android:textStyle="bold"
+        android:textColor="#0d74af"
+        android:id="@+id/textView"></TextView>
 </RelativeLayout>
