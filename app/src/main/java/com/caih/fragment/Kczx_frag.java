@@ -12,7 +12,7 @@ import com.caih.caih.R;
 /**
  * Created by Administrator on 2016/5/27.
  */
-public class Kczx_Frag extends Fragment {
+public class Kczx_frag extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
