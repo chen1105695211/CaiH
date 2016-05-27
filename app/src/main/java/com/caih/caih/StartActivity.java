@@ -1,13 +1,14 @@
 package com.caih.caih;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.zhy.autolayout.AutoLayoutActivity;
 
-public class StartActivity extends AppCompatActivity {
+
+public class StartActivity extends AutoLayoutActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

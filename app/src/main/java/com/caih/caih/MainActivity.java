@@ -5,6 +5,8 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.view.View;
+import android.widget.RadioButton;
 
 import com.caih.fragment.Kczx_Frag;
 
@@ -22,5 +24,8 @@ public class MainActivity extends FragmentActivity {
         transaction.add(R.id.main_frag,new Kczx_Frag());
         transaction.commit();
 
+
     }
+
+
 }

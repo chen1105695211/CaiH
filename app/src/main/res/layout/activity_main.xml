@@ -12,49 +12,51 @@
 
 
         <RadioGroup
+            android:id="@+id/rg"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            >
 
             <RadioButton
                 android:id="@+id/kczx"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:button="@null"
-                android:background="@mipmap/kechengzhongxin_normal"
+
+                android:background="@drawable/bt_kecheng_selector"
                 android:layout_marginLeft="66px"
                 android:layout_gravity="center_vertical"
-                android:layout_marginRight="15px"/>
+                android:layout_marginRight="20px"/>
             <RadioButton
                 android:id="@+id/chtk"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:button="@null"
-                android:background="@mipmap/kechengzhongxin_normal"
+                android:background="@drawable/bt_caihua_selector"
                 android:layout_marginLeft="66px"
                 android:layout_gravity="center_vertical"
-                android:layout_marginRight="15px"
+                android:layout_marginRight="20px"
                 />
             <RadioButton
                 android:id="@+id/xxzx"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:button="@null"
-                android:background="@mipmap/kechengzhongxin_normal"
+                android:background="@drawable/bt_xuexi_selector"
                 android:layout_marginLeft="55px"
                 android:layout_gravity="center_vertical"
-                android:layout_marginRight="15px"
+                android:layout_marginRight="20px"
                />
             <RadioButton
                 android:id="@+id/grzx"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:button="@null"
-                android:background="@mipmap/kechengzhongxin_normal"
+                android:background="@drawable/bt_geren_selector"
                 android:layout_marginLeft="66px"
                 android:layout_gravity="center_vertical"
-
                 />
 
         </RadioGroup>
