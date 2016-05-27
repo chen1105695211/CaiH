@@ -11,5 +11,6 @@ public class SplashActivity extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
 
         //加上对方空间的说服力的是你吃肯德基里是否还是女叫对方先查查你下课
+        //今天星期五
     }
 }
