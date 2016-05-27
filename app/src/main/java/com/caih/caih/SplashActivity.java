@@ -12,5 +12,9 @@ public class SplashActivity extends AppCompatActivity {
 
         //加上对方空间的说服力的是你吃肯德基里是否还是女叫对方先查查你下课
         //今天星期五
+        //ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+        //aaaaaaaaaaaaaaaaaa
+        //aaaaaaawuqowiuweubhhdksadnjzbf
+        //的开始了检查撒打开就擦拭空间的才能
     }
 }
