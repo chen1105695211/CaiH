@@ -20,5 +20,6 @@ public class SplashActivity extends AppCompatActivity {
         //陈攀
         //aaaacp
         //aaaaa
+        //lidou
     }
 }
