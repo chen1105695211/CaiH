@@ -15,5 +15,8 @@ public class SplashActivity extends AppCompatActivity {
         //aaaaaaaaaaaaaaaaaa
         //aaaaaaawuqowiuweubhhdksadnjzbf
         ///11111111111
+        //chenpan
+        //陈攀
+        //aaaacp
     }
 }
