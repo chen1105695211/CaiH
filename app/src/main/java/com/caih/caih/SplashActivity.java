@@ -1,16 +1,44 @@
 package com.caih.caih;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 
-public class SplashActivity extends AppCompatActivity {
+import com.zhy.autolayout.AutoLayoutActivity;
+
+import java.util.Timer;
+import java.util.TimerTask;
+
+public class SplashActivity extends AutoLayoutActivity {
+
+    Handler handler=new Handler(){
+
+        @Override
+        public void handleMessage(Message msg) {
+            if(msg.what==111){
+                startActivity(new Intent(SplashActivity.this,StartActivity.class));
+                timer.cancel();
+            }
+        }
+    };
+    private Timer timer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-        //jfaighiewjriojwaeifkonvfjidjo
-        //kjm,k
-        //埃及发奖金家具佛加急费劲啊卡开了房间了看见看没看就打了付款了开始考虑分了吗开始
+
+
+        timer = new Timer();
+        timer.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                handler.sendMessage(handler.obtainMessage(111));
+            }
+        }, 500, 2000);
+
+
+
     }
 }

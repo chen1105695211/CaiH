@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.caih.caih.StartActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:text="请选择您感兴趣的一门课程"
+        android:gravity="center"
+        android:background="#000"
+        android:textColor="#fff"
+        />
+
+    <TextView
+        android:id="@+id/text_ACCA"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:layout_marginLeft="74px"
+        android:layout_marginRight="74px"
+        android:layout_marginTop="130px"
+        android:background="#0D74AF"
+        android:gravity="center"
+        android:text="ACCA"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/text_CMA"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:layout_marginLeft="74px"
+        android:layout_marginRight="74px"
+        android:layout_marginTop="340px"
+        android:text="CMA\n即将开通"
+        android:background="#CCCCCC"
+        android:gravity="center"
+        android:textColor="#404040"
+        android:singleLine="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="以后您可以在课程中心切换课程"
+        android:layout_marginTop="690px"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
