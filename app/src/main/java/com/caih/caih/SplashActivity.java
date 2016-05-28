@@ -24,7 +24,7 @@ public class SplashActivity extends AutoLayoutActivity {
             public void run() {
                 handler.sendMessage(handler.obtainMessage(111));
             }
-        }, 500, 2000);
+        }, 2000, 2000);
 
 
 

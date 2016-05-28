@@ -24,9 +24,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:button="@null"
-
+                android:layout_weight="1"
                 android:background="@drawable/bt_kecheng_selector"
-                android:layout_marginLeft="77px"
+                android:layout_marginLeft="10px"
                 android:layout_gravity="center_vertical"
                 android:layout_marginRight="20px"/>
             <RadioButton
@@ -38,6 +38,7 @@
                 android:layout_marginLeft="70px"
                 android:layout_gravity="center_vertical"
                 android:layout_marginRight="20px"
+                android:layout_weight="1"
                 />
             <RadioButton
                 android:id="@+id/xxzx"
@@ -48,6 +49,7 @@
                 android:layout_marginLeft="66px"
                 android:layout_gravity="center_vertical"
                 android:layout_marginRight="20px"
+                android:layout_weight="1"
                />
             <RadioButton
                 android:id="@+id/grzx"
@@ -57,6 +59,8 @@
                 android:background="@drawable/bt_geren_selector"
                 android:layout_marginLeft="66px"
                 android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+
                 />
 
         </RadioGroup>
