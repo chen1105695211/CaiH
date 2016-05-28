@@ -10,20 +10,7 @@ import com.zhy.autolayout.AutoLayoutActivity;
 import java.util.Timer;
 import java.util.TimerTask;
 
-
 public class SplashActivity extends AutoLayoutActivity {
-
-    Handler handler=new Handler(){
-
-        @Override
-        public void handleMessage(Message msg) {
-            if(msg.what==111){
-                startActivity(new Intent(SplashActivity.this,StartActivity.class));
-                timer.cancel();
-            }
-        }
-    };
-    private Timer timer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

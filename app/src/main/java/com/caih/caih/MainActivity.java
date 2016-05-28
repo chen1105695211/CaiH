@@ -5,14 +5,16 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-import android.view.View;
 import android.widget.RadioButton;
+
 import com.caih.fragment.Kczx_frag;
 
 /**
  * Created by Administrator on 2016/5/27.
  */
 public class MainActivity extends FragmentActivity {
+
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,10 +22,19 @@ public class MainActivity extends FragmentActivity {
 
         FragmentManager manager = getSupportFragmentManager();
         FragmentTransaction transaction = manager.beginTransaction();
-        transaction.add(R.id.main_frag,new Kczx_frag());
+        transaction.add(R.id.main_frag, new Kczx_frag());
         transaction.commit();
 
+        findId();
 
+
+    }
+
+    private void findId() {
+        RadioButton kczx = (RadioButton) findViewById(R.id.kczx);
+        RadioButton chtk = (RadioButton) findViewById(R.id.chtk);
+        RadioButton xxzx = (RadioButton) findViewById(R.id.xxzx);
+        RadioButton grzx = (RadioButton) findViewById(R.id.grzx);
     }
 
 

@@ -26,7 +26,7 @@
                 android:button="@null"
 
                 android:background="@drawable/bt_kecheng_selector"
-                android:layout_marginLeft="66px"
+                android:layout_marginLeft="77px"
                 android:layout_gravity="center_vertical"
                 android:layout_marginRight="20px"/>
             <RadioButton
@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:button="@null"
                 android:background="@drawable/bt_caihua_selector"
-                android:layout_marginLeft="66px"
+                android:layout_marginLeft="70px"
                 android:layout_gravity="center_vertical"
                 android:layout_marginRight="20px"
                 />
@@ -45,7 +45,7 @@
                 android:layout_height="wrap_content"
                 android:button="@null"
                 android:background="@drawable/bt_xuexi_selector"
-                android:layout_marginLeft="55px"
+                android:layout_marginLeft="66px"
                 android:layout_gravity="center_vertical"
                 android:layout_marginRight="20px"
                />
