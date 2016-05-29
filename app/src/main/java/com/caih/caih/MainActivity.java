@@ -52,7 +52,7 @@ public class MainActivity extends FragmentActivity  implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()) {
 
-            case R.id.kczx:
+            case R.id.kczx://替换
                 FragmentTransaction transaction1 = manager.beginTransaction();
                 transaction1.replace(R.id.main_frag, new Kczx_frag()).commit();
                 break;
