@@ -64,11 +64,14 @@ public class MainActivity extends FragmentActivity  implements View.OnClickListe
                 FragmentTransaction transaction1 = manager.beginTransaction();
                 transaction1.replace(R.id.main_frag, new Kczx_frag()).commit();
                 main_title.setText("课程中心");
+                main_img.setVisibility(View.VISIBLE);
                 break;
             case R.id.chtk:
                 FragmentTransaction transaction2 = manager.beginTransaction();
                 transaction2.replace(R.id.main_frag, new Chtk_Frag()).commit();
                 main_title.setText("财华题库");
+                main_img.setImageResource(R.mipmap.jilu);
+                main_img.setVisibility(View.VISIBLE);
                 break;
             case R.id.xxzx:
                 FragmentTransaction transaction3 = manager.beginTransaction();
@@ -81,6 +84,7 @@ public class MainActivity extends FragmentActivity  implements View.OnClickListe
                 transaction4.replace(R.id.main_frag, new Grzx_Frag()).commit();
                 main_title.setText("个人中心");
                 main_img.setImageResource(R.mipmap.shezhi);
+                main_img.setVisibility(View.VISIBLE);
                 break;
 
         }
