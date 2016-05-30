@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.caih.caih.StartActivity">
+    android:orientation="vertical">
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="50px"
+        android:layout_height="0dp"
+        android:layout_weight="2"
         android:text="请选择您感兴趣的一门课程"
         android:gravity="center"
+        android:textSize="20sp"
         android:background="#000"
         android:textColor="#fff"
         />
@@ -16,32 +18,41 @@
     <TextView
         android:id="@+id/text_ACCA"
         android:layout_width="match_parent"
-        android:layout_height="150px"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:layout_marginTop="100px"
         android:layout_marginLeft="74px"
         android:layout_marginRight="74px"
-        android:layout_marginTop="130px"
         android:background="#0D74AF"
         android:gravity="center"
         android:text="ACCA"
+        android:textSize="30sp"
         android:textColor="#fff" />
 
     <TextView
         android:id="@+id/text_CMA"
         android:layout_width="match_parent"
-        android:layout_height="150px"
+        android:layout_height="0dp"
+        android:layout_weight="5"
         android:layout_marginLeft="74px"
         android:layout_marginRight="74px"
-        android:layout_marginTop="340px"
+        android:layout_marginTop="140px"
         android:text="CMA\n即将开通"
+        android:textSize="30sp"
         android:background="#CCCCCC"
         android:gravity="center"
         android:textColor="#404040"
         android:singleLine="false"/>
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_marginLeft="100px"
         android:text="以后您可以在课程中心切换课程"
-        android:layout_marginTop="690px"
+        android:layout_marginTop="100px"
+        android:textSize="20sp"
+        android:layout_marginBottom="30px"
         android:layout_centerHorizontal="true"/>
 
-</RelativeLayout>
+</LinearLayout>
