@@ -74,6 +74,7 @@ public class MainActivity extends FragmentActivity  implements View.OnClickListe
                 FragmentTransaction transaction3 = manager.beginTransaction();
                 transaction3.replace(R.id.main_frag, new Xxzx_Frag()).commit();
                 main_title.setText("学习中心");
+                main_img.setVisibility(View.GONE);
                 break;
             case R.id.grzx:
                 FragmentTransaction transaction4 = manager.beginTransaction();
