@@ -20,6 +20,7 @@ public class StartActivity extends AutoLayoutActivity {
             public void onClick(View v) {
                 Intent intent=new Intent(StartActivity.this,MainActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

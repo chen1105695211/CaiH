@@ -19,6 +19,7 @@ public class SplashActivity extends AutoLayoutActivity {
             if(msg.what==111){
                 startActivity(new Intent(SplashActivity.this,StartActivity.class));
                 timer.cancel();
+                finish();
             }
         }
     };
