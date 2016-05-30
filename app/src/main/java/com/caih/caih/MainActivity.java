@@ -1,5 +1,6 @@
 package com.caih.caih;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentActivity;
@@ -9,6 +10,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.caih.fragment.Chtk_Frag;
 import com.caih.fragment.Grzx_Frag;
@@ -65,6 +67,13 @@ public class MainActivity extends FragmentActivity  implements View.OnClickListe
                 transaction1.replace(R.id.main_frag, new Kczx_frag()).commit();
                 main_title.setText("课程中心");
                 main_img.setVisibility(View.VISIBLE);
+                //点击右上角的监听
+                main_img.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Toast.makeText(MainActivity.this,"课程中心",Toast.LENGTH_SHORT).show();
+                    }
+                });
                 break;
             case R.id.chtk:
                 FragmentTransaction transaction2 = manager.beginTransaction();
@@ -72,6 +81,13 @@ public class MainActivity extends FragmentActivity  implements View.OnClickListe
                 main_title.setText("财华题库");
                 main_img.setImageResource(R.mipmap.jilu);
                 main_img.setVisibility(View.VISIBLE);
+                //点击右上角的监听
+                main_img.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Toast.makeText(MainActivity.this,"财华题库",Toast.LENGTH_SHORT).show();
+                    }
+                });
                 break;
             case R.id.xxzx:
                 FragmentTransaction transaction3 = manager.beginTransaction();
@@ -85,6 +101,13 @@ public class MainActivity extends FragmentActivity  implements View.OnClickListe
                 main_title.setText("个人中心");
                 main_img.setImageResource(R.mipmap.shezhi);
                 main_img.setVisibility(View.VISIBLE);
+                //点击右上角的监听
+                main_img.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Toast.makeText(MainActivity.this,"个人中心",Toast.LENGTH_SHORT).show();
+                    }
+                });
                 break;
 
         }
