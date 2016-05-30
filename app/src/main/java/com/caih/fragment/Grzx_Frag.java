@@ -16,7 +16,7 @@ public class Grzx_Frag extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = View.inflate(getActivity(),R.layout.grzx_frag,null);
+        View view =  View.inflate(getActivity(),R.layout.grzx_frag,null);
         return view;
     }
 }

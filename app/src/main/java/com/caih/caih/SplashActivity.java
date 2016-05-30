@@ -12,11 +12,21 @@ import java.util.TimerTask;
 
 public class SplashActivity extends AutoLayoutActivity {
 
+    Handler handler=new Handler(){
+
+        @Override
+        public void handleMessage(Message msg) {
+            if(msg.what==111){
+                startActivity(new Intent(SplashActivity.this,StartActivity.class));
+                timer.cancel();
+            }
+        }
+    };
+    private Timer timer;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-
 
         timer = new Timer();
         timer.schedule(new TimerTask() {

@@ -4,6 +4,9 @@
     android:layout_height="match_parent"
 
     >
+
+
+
    <FrameLayout
        android:id="@+id/main_frag"
        android:layout_width="match_parent"
@@ -26,6 +29,7 @@
                 android:button="@null"
                 android:layout_weight="1"
                 android:background="@drawable/bt_kecheng_selector"
+                android:checked="true"
                 android:layout_marginLeft="10px"
                 android:layout_gravity="center_vertical"
                 android:layout_marginRight="20px"/>
